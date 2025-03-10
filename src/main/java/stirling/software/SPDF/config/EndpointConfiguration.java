@@ -164,13 +164,7 @@ public class EndpointConfiguration {
         addEndpointToGroup("CLI", "ocr-pdf");
         addEndpointToGroup("CLI", "html-to-pdf");
         addEndpointToGroup("CLI", "url-to-pdf");
-        addEndpointToGroup("CLI", "book-to-pdf");
-        addEndpointToGroup("CLI", "pdf-to-book");
         addEndpointToGroup("CLI", "pdf-to-rtf");
-
-        // Calibre
-        addEndpointToGroup("Calibre", "book-to-pdf");
-        addEndpointToGroup("Calibre", "pdf-to-book");
 
         // python
         addEndpointToGroup("Python", "extract-image-scans");
